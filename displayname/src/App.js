@@ -19,11 +19,11 @@ function App() {
       <h1>Full Name Display</h1>
       <div>
       <label for="firstname">First Name:</label>
-      <input id="firstname" value={firstName} onChange={(e) => setFirstName(e.target.value)} required/>
+      <input type="text" id="firstname" value={firstName} onChange={(e) => setFirstName(e.target.value)} required/>
       </div>
       <div>
       <label for="lastname">Last Name:</label>
-      <input id="lastname" value={lastName} onChange={(e) => setLastName(e.target.value)} required/>
+      <input type="text" id="lastname" value={lastName} onChange={(e) => setLastName(e.target.value)} required/>
       </div>
       <div>
         <button type="submit">Submit</button>

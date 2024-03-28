@@ -31,7 +31,7 @@ function App() {
     </form>
     {formData ? 
     (
-        <p>FullName: {firstName} {lastName}</p>
+        <p className={styles.fullname}>Full Name: {firstName} {lastName}</p>
     ) : (null)
   }
     </div>
